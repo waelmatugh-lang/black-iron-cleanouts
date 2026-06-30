@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Scale Design — Layer 2: semantic tokens
+   Values are space-separated RGB channels so Tailwind can apply
+   opacity via `rgb(var(--token) / <alpha-value>)`.
+   ============================================================ */
+:root {
+  --bg: 255 255 255;
+  --surface: 255 255 255;
+  --surface-2: 246 248 250; /* steel-50 */
+  --fg: 15 34 56; /* navy-900 */
+  --muted: 80 95 116; /* steel-600 */
+  --border: 213 220 228; /* steel-200 */
+
+  --primary: 28 59 102; /* navy-700 */
+  --primary-fg: 255 255 255;
+  --accent: 28 107 59; /* forest-600 */
+  --accent-fg: 255 255 255;
+  --ring: 47 93 155; /* navy-500 */
+}
+
+.dark {
+  --bg: 10 22 38; /* navy-950 */
+  --surface: 15 34 56; /* navy-900 */
+  --surface-2: 21 44 77; /* navy-800 */
+  --fg: 236 239 243; /* steel-100 */
+  --muted: 176 188 202; /* steel-300 */
+  --border: 58 67 80; /* steel-800 */
+
+  --primary: 123 162 211; /* navy-300 */
+  --primary-fg: 10 22 38;
+  --accent: 67 160 101; /* forest-400 */
+  --accent-fg: 8 32 20;
+  --ring: 123 162 211;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg text-fg antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight text-balance;
+  }
+  /* Logical-property helpers so RTL flips automatically */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-bg;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8;
+  }
+  .section {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-accent;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-semibold
+           transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2
+           focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-bg
+           disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
+  }
+  .btn-primary {
+    @apply btn bg-accent text-accent-fg hover:bg-forest-700;
+  }
+  .btn-secondary {
+    @apply btn bg-primary text-primary-fg hover:bg-navy-800;
+  }
+  .btn-outline {
+    @apply btn border border-border bg-surface text-fg hover:bg-surface-2;
+  }
+  .btn-ghost {
+    @apply btn text-fg hover:bg-surface-2;
+  }
+  .card {
+    @apply rounded-card border border-border bg-surface shadow-soft;
+  }
+  .ipt {
+    @apply block w-full rounded-xl border border-border bg-surface px-4 py-3 text-base text-fg
+           placeholder:text-steel-400 transition-colors focus:border-accent focus-visible:outline-none
+           focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-bg;
+  }
+  .link-underline {
+    @apply underline decoration-from-font underline-offset-4 hover:text-accent;
+  }
+}
+
+/* Respect reduced-motion globally */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

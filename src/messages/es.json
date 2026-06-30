@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "titleSuffix": "Remoción de Basura y Mudanzas en Seattle",
+    "description": "Black Iron Cleanouts, LLC ofrece remoción de basura, mudanza de muebles y desecho responsable, rápido y confiable, para hogares y negocios en el área de Seattle y Everett. Donamos, reciclamos y desechamos con cuidado. Inglés, español y árabe."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "howItWorks": "Cómo Funciona",
+    "serviceAreas": "Zonas de Servicio",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "getQuote": "Cotización Gratis",
+    "callNow": "Llamar",
+    "chatWhatsApp": "Chatear por WhatsApp",
+    "skipToContent": "Saltar al contenido",
+    "toggleTheme": "Cambiar modo oscuro"
+  },
+  "footer": {
+    "blurb": "Mudanzas, remoción de basura y desecho adecuado para hogares y negocios. Hacemos el trabajo pesado con cuidado, y donamos, reciclamos o desechamos sus artículos de forma responsable.",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "visit": "Zona de Servicio y Horario",
+    "serving": "Con orgullo servimos a",
+    "rights": "Todos los derechos reservados."
+  },
+  "common": {
+    "residential": "Residencial",
+    "commercial": "Comercial",
+    "freeQuote": "Cotización Gratis",
+    "learnMore": "Saber más",
+    "callUs": "Llámenos",
+    "licensed": "Con licencia y asegurado"
+  },
+  "home": {
+    "hero": {
+      "badge": "Seattle · Everett · Condado de Snohomish",
+      "title": "Despeja el desorden.",
+      "titleAccent": "Recupera tu espacio.",
+      "subtitle": "Remoción de basura, mudanza de muebles y desecho responsable, rápido y amable, para hogares y negocios. Hacemos el trabajo pesado para que vuelvas a respirar.",
+      "ctaPrimary": "Cotización Gratis",
+      "ctaSecondary": "Chatear por WhatsApp",
+      "trust": [
+        "Servicio la misma semana",
+        "Precios claros, sin sorpresas",
+        "Donamos y reciclamos"
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "Esta semana", "label": "Citas disponibles" },
+        { "value": "Eco-primero", "label": "Donar · Reciclar · Desechar" },
+        { "value": "3 idiomas", "label": "Inglés · Español · Árabe" },
+        { "value": "Res. y Com.", "label": "Hogares y negocios" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Qué hacemos",
+      "title": "Remoción y mudanza, bien hechas",
+      "subtitle": "Un solo equipo para acarreo, despejes y mudanzas — residencial y comercial.",
+      "items": [
+        { "key": "junk", "title": "Remoción de Basura", "desc": "Muebles viejos, electrodomésticos, escombros de jardín y desorden en general, retirados en una sola visita." },
+        { "key": "moving", "title": "Mudanza de Muebles y Artículos", "desc": "Trabajo pesado y mudanzas con cuidado — de cuarto a cuarto, de casa a casa o por la ciudad." },
+        { "key": "hauling", "title": "Acarreo de Proveedor a Cliente", "desc": "Recolecciones y entregas entre proveedores y clientes, con transporte seguro." },
+        { "key": "cleanout", "title": "Despeje de Propiedades y Garajes", "desc": "Despeje completo de propiedades, herencias, garajes y bodegas, de principio a fin." },
+        { "key": "appliance", "title": "Electrodomésticos y Desecho", "desc": "Retiro seguro de electrodomésticos y artículos voluminosos, con desecho responsable." },
+        { "key": "commercial", "title": "Despeje Comercial", "desc": "Retiro de escombros de oficinas, comercios y obras que mantiene su negocio en marcha." }
+      ],
+      "cta": "Ver todos los servicios"
+    },
+    "why": {
+      "eyebrow": "Por qué Black Iron",
+      "title": "Gente confiable, precios honestos",
+      "subtitle": "Tratamos tu hogar y tu tiempo con respeto — en cada trabajo, siempre.",
+      "items": [
+        { "title": "Precios por adelantado", "desc": "Cotizaciones claras antes de empezar. Sin cargos ocultos, sin sorpresas." },
+        { "title": "Rápido y puntual", "desc": "Disponibilidad la misma semana y equipos que llegan cuando lo prometemos." },
+        { "title": "Cuidado con tu hogar", "desc": "Protegemos pisos y entradas, y manejamos cada artículo con cuidado." },
+        { "title": "Responsables con el medio ambiente", "desc": "Donamos y reciclamos lo que podemos para mantenerlo fuera del vertedero." },
+        { "title": "Con licencia y asegurado", "desc": "Un equipo profesional y asegurado en quien puedes confiar en tu propiedad." },
+        { "title": "Hablamos tu idioma", "desc": "Servicio amable en inglés, español y árabe." }
+      ]
+    },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "title": "Tres pasos sencillos",
+      "subtitle": "Reservar un despeje debería ser la parte fácil.",
+      "steps": [
+        { "title": "Cuéntanos qué tienes", "desc": "Envía unas fotos por WhatsApp o nuestro formulario y describe el trabajo." },
+        { "title": "Recibe una cotización gratis", "desc": "Confirmamos un precio por adelantado y una hora que te convenga." },
+        { "title": "Lo retiramos", "desc": "Nuestro equipo llega, hace el trabajo pesado y limpia después." },
+        { "title": "Respira tranquilo", "desc": "Disfruta tu espacio recuperado — donamos, reciclamos o desechamos con responsabilidad." }
+      ]
+    },
+    "eco": {
+      "eyebrow": "Nuestra promesa",
+      "title": "Donar. Reciclar. Desechar con responsabilidad.",
+      "subtitle": "No solo lo tiramos. Siempre que es posible, mantenemos los artículos útiles en la comunidad y fuera del vertedero.",
+      "points": [
+        { "title": "Donar", "desc": "Muebles y artículos útiles van a organizaciones benéficas y familias locales." },
+        { "title": "Reciclar", "desc": "Metal, electrónicos y materiales se separan y se reciclan correctamente." },
+        { "title": "Desechar", "desc": "Lo que queda se desecha de forma segura y conforme a la norma." }
+      ]
+    },
+    "areas": {
+      "eyebrow": "Dónde trabajamos",
+      "title": "Servimos al área de Seattle y el Condado de Snohomish",
+      "subtitle": "Con base en Everett, WA, atendemos las ciudades y vecindarios cercanos.",
+      "cta": "Ver todas las zonas"
+    },
+    "testimonials": {
+      "eyebrow": "Clientes",
+      "title": "Vecinos que confían en Black Iron",
+      "items": [
+        { "quote": "Llegaron puntuales, dieron un precio justo por adelantado y despejaron todo mi garaje en una tarde. No podría estar más feliz.", "name": "María G.", "location": "Everett, WA" },
+        { "quote": "Movieron muebles pesados entre dos casas sin un solo rayón. Profesionales y amables en todo momento.", "name": "David R.", "location": "Lynnwood, WA" },
+        { "quote": "Me encantó que donaran lo que pudieron en vez de tirarlo. Honestos, rápidos y fáciles de contactar por WhatsApp.", "name": "Aisha K.", "location": "Seattle, WA" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas",
+      "title": "Preguntas frecuentes",
+      "items": [
+        { "q": "¿Cuánto cuesta la remoción de basura?", "a": "El precio depende del volumen y el tipo de artículos. Te damos una cotización clara por adelantado antes de empezar — normalmente justo después de que envíes fotos por WhatsApp o nuestro formulario." },
+        { "q": "¿Qué tan rápido pueden venir?", "a": "Con frecuencia tenemos disponibilidad la misma semana, y a veces el mismo día según la agenda. Contáctanos y encontraremos una hora que funcione." },
+        { "q": "¿Qué artículos se llevan?", "a": "Muebles, electrodomésticos, electrónicos, escombros de jardín, escombros de construcción y desorden del hogar. Pregúntanos por artículos especiales." },
+        { "q": "¿Hacen mudanzas además de remoción?", "a": "Sí. Movemos y acarreamos artículos entre cuartos, casas y de proveedores a clientes — no solo desecho." },
+        { "q": "¿Donan o reciclan?", "a": "Siempre que es posible. Separamos los artículos para donar o reciclar lo que se pueda, y solo desechamos lo que queda de forma responsable." },
+        { "q": "¿Qué zonas atienden?", "a": "El área de Seattle y Everett, incluyendo el Condado de Snohomish y el norte del Condado de King. Consulta nuestra página de Zonas de Servicio para la lista completa." }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para recuperar tu espacio?",
+      "subtitle": "Obtén una cotización gratis y sin compromiso hoy. Envíanos unas fotos y nosotros nos encargamos del resto.",
+      "primary": "Cotización Gratis",
+      "secondary": "Llama al {phone}"
+    }
+  },
+  "services": {
+    "hero": {
+      "badge": "Residencial y Comercial",
+      "title": "Nuestros Servicios",
+      "subtitle": "Desde un solo mueble hasta el despeje completo de una propiedad — un equipo confiable para acarreo, mudanza y desecho en toda el área de Seattle."
+    },
+    "items": [
+      { "key": "junk", "title": "Remoción de Basura", "desc": "Despeja muebles viejos, electrodomésticos, desperdicios de jardín y desorden cotidiano en una sola visita. Cargamos, acarreamos y limpiamos para que no tengas que levantar nada.", "features": ["Muebles y colchones", "Electrodomésticos y electrónicos", "Escombros de jardín y garaje", "Basura general del hogar"] },
+      { "key": "moving", "title": "Mudanza de Muebles y Artículos", "desc": "¿Necesitas mover algo pesado? Hacemos mudanzas internas con cuidado, traslados de casa a casa y levantamientos difíciles con el equipo y el cuidado adecuados.", "features": ["Mudanzas de cuarto a cuarto", "Traslados de casa a casa", "Artículos pesados y voluminosos", "Protección de pisos y entradas"] },
+      { "key": "hauling", "title": "Acarreo de Proveedor a Cliente", "desc": "Recogemos en tu proveedor y entregamos en tu puerta — o trasladamos inventario entre ubicaciones — con transporte seguro y confiable.", "features": ["Recolecciones en proveedores", "Entregas a clientes", "Traslados entre ubicaciones", "Manejo cuidadoso"] },
+      { "key": "cleanout", "title": "Despeje de Propiedades y Garajes", "desc": "Despeje de propiedades completas, herencias, garajes y bodegas, manejado con sensibilidad y eficiencia de principio a fin.", "features": ["Despeje de propiedades completas", "Herencias y reducción de espacio", "Garajes y sótanos", "Unidades de almacenamiento"] },
+      { "key": "appliance", "title": "Remoción de Electrodomésticos y Artículos Voluminosos", "desc": "Retiro seguro de refrigeradores, lavadoras, secadoras, jacuzzis y otros artículos pesados, con desecho y reciclaje responsable.", "features": ["Refrigeradores y congeladores", "Lavadoras y secadoras", "Jacuzzis y equipo de ejercicio", "Desecho responsable"] },
+      { "key": "commercial", "title": "Despeje Comercial", "desc": "Retiro de escombros de oficinas, comercios, administración de propiedades y construcción ligera que mantiene tu negocio y proyectos a tiempo.", "features": ["Oficinas y comercios", "Administración de propiedades", "Escombros de construcción", "Horarios flexibles"] }
+    ],
+    "segments": {
+      "title": "Hecho para hogares y negocios",
+      "residential": { "title": "Residencial", "desc": "Propietarios, inquilinos y arrendadores — desde una recolección rápida de un solo artículo hasta un despeje completo de mudanza." },
+      "commercial": { "title": "Comercial", "desc": "Oficinas, comercios, contratistas y administradores de propiedades que necesitan acarreo confiable y programado." }
+    },
+    "cta": { "title": "¿No sabes qué servicio necesitas?", "subtitle": "Cuéntanos sobre el trabajo y te recomendaremos la mejor opción con un precio por adelantado.", "button": "Cotización Gratis" }
+  },
+  "howItWorks": {
+    "hero": {
+      "badge": "Simple y transparente",
+      "title": "Cómo Funciona",
+      "subtitle": "Reservar una remoción o mudanza debería ser la parte fácil. Esto es exactamente lo que puedes esperar."
+    },
+    "steps": [
+      { "title": "Contáctanos", "desc": "Envía unas fotos y una breve descripción por WhatsApp, teléfono o nuestro formulario en línea. Mientras más veamos, más precisa será tu cotización." },
+      { "title": "Recibe una cotización por adelantado", "desc": "Revisamos el trabajo y confirmamos un precio claro y sin sorpresas, junto con un horario que se ajuste a tu agenda." },
+      { "title": "Llegamos y hacemos el trabajo", "desc": "Nuestro equipo uniformado llega puntual, protege tu espacio y hace todo el levantamiento, carga y limpieza." },
+      { "title": "Desecho responsable", "desc": "Separamos todo para donar, reciclar o desechar con responsabilidad — y te dejamos con un espacio limpio y despejado." }
+    ],
+    "pricing": {
+      "title": "Cómo funcionan nuestros precios",
+      "desc": "La mayoría de los trabajos se cotizan según el volumen que ocupan tus artículos en nuestro camión, más la mano de obra. Siempre recibes el precio completo antes de empezar — nunca una sorpresa por hora.",
+      "points": ["Cotizaciones gratis y sin compromiso", "Precio por adelantado — confirmado antes de empezar", "Sin cargos ocultos ni sorpresas de vertedero", "Estimados por foto vía WhatsApp"]
+    },
+    "cta": { "title": "Listos cuando tú lo estés", "subtitle": "Obtén tu cotización gratis en minutos.", "button": "Cotización Gratis" }
+  },
+  "serviceAreas": {
+    "hero": {
+      "badge": "Área de Seattle y Condado de Snohomish",
+      "title": "Zonas que Atendemos",
+      "subtitle": "Con base en Everett, WA, atendemos hogares y negocios en toda la región de Puget Sound. Si no ves tu ciudad, solo pregunta — probablemente la cubrimos."
+    },
+    "intro": "Con orgullo atendemos estas ciudades y vecindarios cercanos:",
+    "cities": [
+      "Everett", "Seattle", "Lynnwood", "Bothell", "Bellevue", "Redmond",
+      "Kirkland", "Shoreline", "Edmonds", "Mukilteo", "Marysville", "Mill Creek",
+      "Renton", "Kent", "Mountlake Terrace", "Snohomish"
+    ],
+    "note": "¿No ves tu zona? Siempre estamos creciendo — contáctanos y te avisamos.",
+    "cta": { "title": "Atendemos tu vecindario", "subtitle": "Obtén una cotización rápida y gratis para tu dirección.", "button": "Cotización Gratis" }
+  },
+  "about": {
+    "hero": {
+      "badge": "Local y familiar",
+      "title": "Acerca de Black Iron Cleanouts",
+      "subtitle": "Un equipo local y multicultural construido sobre el trabajo duro, la honestidad y el respeto por tu espacio."
+    },
+    "story": {
+      "title": "Eliminando el desorden, restaurando la paz",
+      "paragraphs": [
+        "Black Iron Cleanouts, LLC nació de una idea simple: despejar el desorden no debería ser estresante. Ponemos la fuerza, el camión y el cuidado — para que vuelvas a respirar.",
+        "Desde recolecciones de un solo artículo hasta despejes completos de propiedades, atendemos a propietarios, inquilinos y negocios en toda el área de Seattle y Everett. Llegamos puntuales, cotizamos con honestidad y tratamos cada propiedad como si fuera nuestra.",
+        "Estamos orgullosos de ser un equipo multicultural que atiende a nuestros vecinos en inglés, español y árabe."
+      ]
+    },
+    "values": {
+      "title": "Lo que defendemos",
+      "items": [
+        { "title": "Honestidad", "desc": "Precios por adelantado y respuestas directas — siempre." },
+        { "title": "Cuidado", "desc": "Respetamos tu hogar, tu tiempo y tus pertenencias." },
+        { "title": "Responsabilidad", "desc": "Donamos y reciclamos para proteger a nuestra comunidad y el medio ambiente." },
+        { "title": "Confiabilidad", "desc": "Cuando reservamos una hora, la cumplimos." }
+      ]
+    },
+    "eco": {
+      "title": "Bueno para tu espacio y el planeta",
+      "desc": "Estamos comprometidos a mantener los artículos útiles fuera del vertedero. Siempre que es posible donamos bienes a familias y organizaciones locales, reciclamos metal y electrónicos, y desechamos el resto con responsabilidad."
+    },
+    "cta": { "title": "Despejemos tu espacio", "subtitle": "La ayuda amable y profesional está a un mensaje de distancia.", "button": "Cotización Gratis" }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Estamos para ayudarte",
+      "title": "Contáctanos",
+      "subtitle": "¿Preguntas o listo para reservar? Comunícate por el medio que te resulte más fácil — respondemos rápido."
+    },
+    "methods": {
+      "callTitle": "Llamar o textear",
+      "whatsappTitle": "WhatsApp",
+      "whatsappAction": "Envíanos un mensaje",
+      "emailTitle": "Correo",
+      "areaTitle": "Zona de servicio",
+      "hoursTitle": "Horario"
+    },
+    "languagesNote": "Atendemos a clientes en inglés, español y árabe.",
+    "formTitle": "Envíanos un mensaje"
+  },
+  "quote": {
+    "hero": {
+      "badge": "Gratis · Sin compromiso",
+      "title": "Cotización Gratis",
+      "subtitle": "Cuéntanos sobre tu trabajo y te responderemos rápido con un precio por adelantado. Agregar fotos nos ayuda a cotizar con mayor precisión."
+    },
+    "form": {
+      "name": "Nombre completo",
+      "namePlaceholder": "Tu nombre",
+      "phone": "Teléfono",
+      "phonePlaceholder": "(425) 555-0123",
+      "email": "Correo",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "service": "Servicio necesario",
+      "serviceOptions": {
+        "junk": "Remoción de Basura",
+        "moving": "Mudanza de Muebles y Artículos",
+        "hauling": "Acarreo de Proveedor a Cliente",
+        "cleanout": "Despeje de Propiedad o Garaje",
+        "appliance": "Remoción de Electrodomésticos y Voluminosos",
+        "commercial": "Despeje Comercial",
+        "other": "Otra cosa"
+      },
+      "propertyType": "Tipo de propiedad",
+      "city": "Ciudad / zona",
+      "cityPlaceholder": "ej. Everett, WA",
+      "details": "Detalles del trabajo",
+      "detailsPlaceholder": "Cuéntanos qué quieres retirar o mover, y cuándo te conviene.",
+      "photos": "Agregar fotos (opcional)",
+      "photosHint": "JPG o PNG — nos ayuda a dar una cotización precisa.",
+      "required": "Obligatorio",
+      "submit": "Solicitar Mi Cotización Gratis",
+      "submitting": "Enviando…",
+      "orWhatsapp": "¿Prefieres textear? Envía fotos por WhatsApp",
+      "successTitle": "¡Gracias! Tu solicitud fue recibida.",
+      "successBody": "Recibimos tus datos y te responderemos pronto con una cotización. Para una respuesta más rápida, escríbenos por WhatsApp.",
+      "errorTitle": "Algo salió mal.",
+      "errorBody": "Tu solicitud no se pudo enviar. Inténtalo de nuevo o contáctanos directamente por teléfono o WhatsApp.",
+      "errors": {
+        "name": "Por favor ingresa tu nombre.",
+        "contact": "Por favor ingresa un teléfono o correo para poder contactarte.",
+        "details": "Por favor cuéntanos un poco sobre el trabajo."
+      }
+    }
+  }
+}

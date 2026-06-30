@@ -1,0 +1,12 @@
+# Netlify configuration for the Next.js (App Router) site.
+# The official Next.js Runtime plugin handles SSR, API routes and i18n routing.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

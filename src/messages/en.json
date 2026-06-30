@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "titleSuffix": "Junk Removal & Moving in Seattle",
+    "description": "Black Iron Cleanouts, LLC offers fast, reliable junk removal, furniture moving and responsible disposal for homes and businesses across the greater Seattle & Everett area. We donate, recycle and dispose with care. English, Spanish & Arabic."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "howItWorks": "How It Works",
+    "serviceAreas": "Service Areas",
+    "about": "About",
+    "contact": "Contact",
+    "getQuote": "Get a Free Quote",
+    "callNow": "Call Now",
+    "chatWhatsApp": "Chat on WhatsApp",
+    "skipToContent": "Skip to content",
+    "toggleTheme": "Toggle dark mode"
+  },
+  "footer": {
+    "blurb": "Moving, junk removal & proper disposal for homes and businesses. We handle the heavy lifting with care — and donate, recycle or dispose of your items responsibly.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "visit": "Service Area & Hours",
+    "serving": "Proudly serving",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "residential": "Residential",
+    "commercial": "Commercial",
+    "freeQuote": "Get a Free Quote",
+    "learnMore": "Learn more",
+    "callUs": "Call us",
+    "licensed": "Licensed & Insured"
+  },
+  "home": {
+    "hero": {
+      "badge": "Seattle · Everett · Snohomish County",
+      "title": "Clear the clutter.",
+      "titleAccent": "Reclaim your space.",
+      "subtitle": "Fast, friendly junk removal, furniture moving and responsible disposal for homes and businesses. We do the heavy lifting so you can breathe again.",
+      "ctaPrimary": "Get a Free Quote",
+      "ctaSecondary": "Chat on WhatsApp",
+      "trust": [
+        "Same-week service",
+        "Upfront, no-surprise pricing",
+        "We donate & recycle"
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "Same-week", "label": "Booking available" },
+        { "value": "Eco-first", "label": "Donate · Recycle · Dispose" },
+        { "value": "3 languages", "label": "English · Spanish · Arabic" },
+        { "value": "Res. & Comm.", "label": "Homes & businesses" }
+      ]
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Junk removal & moving, done right",
+      "subtitle": "One crew for hauling, cleanouts and moves — residential and commercial.",
+      "items": [
+        { "key": "junk", "title": "Junk Removal", "desc": "Old furniture, appliances, yard debris and general clutter hauled away in a single visit." },
+        { "key": "moving", "title": "Furniture & Item Moving", "desc": "Heavy lifting and careful moves — room to room, home to home, or across town." },
+        { "key": "hauling", "title": "Supplier-to-Customer Hauling", "desc": "Pickups and deliveries between suppliers and customers, with safe transport." },
+        { "key": "cleanout", "title": "Estate & Garage Cleanouts", "desc": "Full property, estate, garage and storage-unit cleanouts handled start to finish." },
+        { "key": "appliance", "title": "Appliance & Disposal", "desc": "Safe removal of appliances and bulky items, with responsible disposal." },
+        { "key": "commercial", "title": "Commercial Cleanouts", "desc": "Office, retail and construction debris removal that keeps your business moving." }
+      ],
+      "cta": "View all services"
+    },
+    "why": {
+      "eyebrow": "Why Black Iron",
+      "title": "Reliable people, honest pricing",
+      "subtitle": "We treat your home and your time with respect — every job, every time.",
+      "items": [
+        { "title": "Upfront pricing", "desc": "Clear quotes before we start. No hidden fees, no surprises." },
+        { "title": "Fast & on time", "desc": "Same-week availability and crews that show up when we say we will." },
+        { "title": "Careful with your home", "desc": "We protect floors and doorways and handle every item with care." },
+        { "title": "Eco-responsible", "desc": "We donate and recycle whatever we can to keep it out of the landfill." },
+        { "title": "Licensed & insured", "desc": "A professional, insured team you can trust on your property." },
+        { "title": "We speak your language", "desc": "Friendly service in English, Spanish and Arabic." }
+      ]
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "Three easy steps",
+      "subtitle": "Booking a cleanout should be the easy part.",
+      "steps": [
+        { "title": "Tell us what you have", "desc": "Send a few photos by WhatsApp or our quote form and tell us about the job." },
+        { "title": "Get a free quote", "desc": "We confirm an upfront price and a time that works for you." },
+        { "title": "We haul it away", "desc": "Our crew arrives, does the heavy lifting and cleans up after." },
+        { "title": "You breathe easy", "desc": "Enjoy your reclaimed space — we donate, recycle or dispose responsibly." }
+      ]
+    },
+    "eco": {
+      "eyebrow": "Our promise",
+      "title": "Donate. Recycle. Dispose responsibly.",
+      "subtitle": "We don't just dump it. Whenever possible, we keep usable items in the community and out of the landfill.",
+      "points": [
+        { "title": "Donate", "desc": "Usable furniture and goods go to local charities and families in need." },
+        { "title": "Recycle", "desc": "Metal, electronics and materials are sorted and recycled properly." },
+        { "title": "Dispose", "desc": "Whatever's left is disposed of safely and to code." }
+      ]
+    },
+    "areas": {
+      "eyebrow": "Where we work",
+      "title": "Serving greater Seattle & Snohomish County",
+      "subtitle": "Based in Everett, WA and serving the surrounding cities and neighborhoods.",
+      "cta": "See all service areas"
+    },
+    "testimonials": {
+      "eyebrow": "Customers",
+      "title": "Neighbors who trust Black Iron",
+      "items": [
+        { "quote": "Showed up on time, gave a fair price up front, and cleared my whole garage in an afternoon. Couldn't be happier.", "name": "Maria G.", "location": "Everett, WA" },
+        { "quote": "They moved heavy furniture between two homes without a scratch. Professional and friendly the whole way.", "name": "David R.", "location": "Lynnwood, WA" },
+        { "quote": "Loved that they donated what they could instead of trashing it. Honest, fast, and easy to reach on WhatsApp.", "name": "Aisha K.", "location": "Seattle, WA" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "How much does junk removal cost?", "a": "Pricing depends on the volume and type of items. We give you a clear, upfront quote before any work begins — usually right after you send photos by WhatsApp or our quote form." },
+        { "q": "How fast can you come out?", "a": "We often have same-week availability, and sometimes same-day depending on the schedule. Reach out and we'll find a time that works." },
+        { "q": "What items do you take?", "a": "Furniture, appliances, electronics, yard debris, construction debris and general household clutter. Ask us about specialty items." },
+        { "q": "Do you handle moving as well as removal?", "a": "Yes. We move and haul items between rooms, homes, and from suppliers to customers — not just disposal." },
+        { "q": "Do you donate or recycle?", "a": "Whenever possible. We sort items to donate or recycle what we can, and only dispose of what's left responsibly." },
+        { "q": "Which areas do you serve?", "a": "The greater Seattle and Everett area, including Snohomish and North King County. See our Service Areas page for the full list." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to reclaim your space?",
+      "subtitle": "Get a free, no-obligation quote today. Text us a few photos and we'll take it from there.",
+      "primary": "Get a Free Quote",
+      "secondary": "Call {phone}"
+    }
+  },
+  "services": {
+    "hero": {
+      "badge": "Residential & Commercial",
+      "title": "Our Services",
+      "subtitle": "From a single piece of furniture to a full property cleanout — one trusted crew for hauling, moving and disposal across greater Seattle."
+    },
+    "items": [
+      { "key": "junk", "title": "Junk Removal", "desc": "Clear out old furniture, appliances, yard waste and everyday clutter in a single visit. We load, haul and sweep up so you don't have to lift a thing.", "features": ["Furniture & mattresses", "Appliances & electronics", "Yard & garage debris", "General household junk"] },
+      { "key": "moving", "title": "Furniture & Item Moving", "desc": "Need something heavy moved? We handle careful in-home moves, home-to-home transfers and tricky lifts with the right equipment and care.", "features": ["Room-to-room moves", "Home-to-home transfers", "Heavy & bulky items", "Floor & doorway protection"] },
+      { "key": "hauling", "title": "Supplier-to-Customer Hauling", "desc": "We pick up from your supplier and deliver to your door — or move inventory between locations — with safe, reliable transport.", "features": ["Supplier pickups", "Customer deliveries", "Between-location transfers", "Careful handling"] },
+      { "key": "cleanout", "title": "Estate & Garage Cleanouts", "desc": "Whole-property, estate, garage and storage-unit cleanouts handled with sensitivity and efficiency from start to finish.", "features": ["Full property cleanouts", "Estate & downsizing", "Garages & basements", "Storage units"] },
+      { "key": "appliance", "title": "Appliance & Bulky Item Removal", "desc": "Safe removal of refrigerators, washers, dryers, hot tubs and other heavy items, with responsible disposal and recycling.", "features": ["Refrigerators & freezers", "Washers & dryers", "Hot tubs & exercise gear", "Responsible disposal"] },
+      { "key": "commercial", "title": "Commercial Cleanouts", "desc": "Office, retail, property-management and light construction debris removal that keeps your business and projects on schedule.", "features": ["Office & retail", "Property management", "Construction debris", "Flexible scheduling"] }
+    ],
+    "segments": {
+      "title": "Built for homes and businesses",
+      "residential": { "title": "Residential", "desc": "Homeowners, renters and landlords — from a quick single-item pickup to a full move-out cleanout." },
+      "commercial": { "title": "Commercial", "desc": "Offices, retailers, contractors and property managers who need dependable, scheduled hauling." }
+    },
+    "cta": { "title": "Not sure which service you need?", "subtitle": "Tell us about the job and we'll recommend the right option with an upfront price.", "button": "Get a Free Quote" }
+  },
+  "howItWorks": {
+    "hero": {
+      "badge": "Simple & transparent",
+      "title": "How It Works",
+      "subtitle": "Booking junk removal or a move should be the easy part. Here's exactly what to expect."
+    },
+    "steps": [
+      { "title": "Reach out", "desc": "Send a few photos and a short description by WhatsApp, phone, or our online quote form. The more we see, the more accurate your quote." },
+      { "title": "Get an upfront quote", "desc": "We review the job and confirm a clear, no-surprise price along with an appointment window that fits your schedule." },
+      { "title": "We arrive & do the work", "desc": "Our uniformed crew arrives on time, protects your space, and does all the lifting, loading and clean-up." },
+      { "title": "Responsible disposal", "desc": "We sort everything to donate, recycle or dispose responsibly — then send you on your way with a clean, clear space." }
+    ],
+    "pricing": {
+      "title": "How our pricing works",
+      "desc": "Most jobs are priced by the volume your items take up in our truck, plus the labor involved. You always get the full price before we start — never an hourly surprise.",
+      "points": ["Free, no-obligation quotes", "Upfront pricing — confirmed before we start", "No hidden fees or dump-fee surprises", "Photo estimates by WhatsApp"]
+    },
+    "cta": { "title": "Ready when you are", "subtitle": "Get your free quote in minutes.", "button": "Get a Free Quote" }
+  },
+  "serviceAreas": {
+    "hero": {
+      "badge": "Greater Seattle & Snohomish County",
+      "title": "Areas We Serve",
+      "subtitle": "Based in Everett, WA, we serve homes and businesses across the Puget Sound region. If you don't see your city, just ask — we likely cover it."
+    },
+    "intro": "Proudly serving these cities and surrounding neighborhoods:",
+    "cities": [
+      "Everett", "Seattle", "Lynnwood", "Bothell", "Bellevue", "Redmond",
+      "Kirkland", "Shoreline", "Edmonds", "Mukilteo", "Marysville", "Mill Creek",
+      "Renton", "Kent", "Mountlake Terrace", "Snohomish"
+    ],
+    "note": "Don't see your area? We're always expanding — reach out and we'll let you know.",
+    "cta": { "title": "Serving your neighborhood", "subtitle": "Get a fast, free quote for your address.", "button": "Get a Free Quote" }
+  },
+  "about": {
+    "hero": {
+      "badge": "Local & family-minded",
+      "title": "About Black Iron Cleanouts",
+      "subtitle": "A local, multicultural team built on hard work, honesty and respect for your space."
+    },
+    "story": {
+      "title": "Removing clutter, restoring peace",
+      "paragraphs": [
+        "Black Iron Cleanouts, LLC was built on a simple idea: clearing out the clutter shouldn't be stressful. We bring the muscle, the truck and the care — so you can breathe again.",
+        "From single-item pickups to full estate cleanouts, we serve homeowners, renters and businesses across the greater Seattle and Everett area. We show up on time, quote honestly, and treat every property like it's our own.",
+        "We're proud to be a multicultural team that serves our neighbors in English, Spanish and Arabic."
+      ]
+    },
+    "values": {
+      "title": "What we stand for",
+      "items": [
+        { "title": "Honesty", "desc": "Upfront prices and straight answers — always." },
+        { "title": "Care", "desc": "We respect your home, your time and your belongings." },
+        { "title": "Responsibility", "desc": "We donate and recycle to protect our community and environment." },
+        { "title": "Reliability", "desc": "When we book a time, we keep it." }
+      ]
+    },
+    "eco": {
+      "title": "Good for your space and the planet",
+      "desc": "We're committed to keeping usable items out of the landfill. Whenever possible we donate goods to local families and charities, recycle metal and electronics, and dispose of the rest responsibly."
+    },
+    "cta": { "title": "Let's clear your space", "subtitle": "Friendly, professional help is one message away.", "button": "Get a Free Quote" }
+  },
+  "contact": {
+    "hero": {
+      "badge": "We're here to help",
+      "title": "Contact Us",
+      "subtitle": "Questions or ready to book? Reach us the way that's easiest for you — we reply fast."
+    },
+    "methods": {
+      "callTitle": "Call or text",
+      "whatsappTitle": "WhatsApp",
+      "whatsappAction": "Message us",
+      "emailTitle": "Email",
+      "areaTitle": "Service area",
+      "hoursTitle": "Hours"
+    },
+    "languagesNote": "We serve customers in English, Spanish and Arabic.",
+    "formTitle": "Send us a message"
+  },
+  "quote": {
+    "hero": {
+      "badge": "Free · No obligation",
+      "title": "Get a Free Quote",
+      "subtitle": "Tell us about your job and we'll get back to you fast with an upfront price. Adding photos helps us quote more accurately."
+    },
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "phone": "Phone",
+      "phonePlaceholder": "(425) 555-0123",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "service": "Service needed",
+      "serviceOptions": {
+        "junk": "Junk Removal",
+        "moving": "Furniture & Item Moving",
+        "hauling": "Supplier-to-Customer Hauling",
+        "cleanout": "Estate & Garage Cleanout",
+        "appliance": "Appliance & Bulky Item Removal",
+        "commercial": "Commercial Cleanout",
+        "other": "Something else"
+      },
+      "propertyType": "Property type",
+      "city": "City / area",
+      "cityPlaceholder": "e.g. Everett, WA",
+      "details": "Job details",
+      "detailsPlaceholder": "Tell us what you'd like removed or moved, and when works for you.",
+      "photos": "Add photos (optional)",
+      "photosHint": "JPG or PNG — helps us give an accurate quote.",
+      "required": "Required",
+      "submit": "Request My Free Quote",
+      "submitting": "Sending…",
+      "orWhatsapp": "Prefer to text? Send photos on WhatsApp",
+      "successTitle": "Thank you! Your request is in.",
+      "successBody": "We've received your details and will get back to you shortly with a quote. For a faster reply, message us on WhatsApp.",
+      "errorTitle": "Something went wrong.",
+      "errorBody": "Your request couldn't be sent. Please try again, or contact us directly by phone or WhatsApp.",
+      "errors": {
+        "name": "Please enter your name.",
+        "contact": "Please enter a phone number or email so we can reach you.",
+        "details": "Please tell us a bit about the job."
+      }
+    }
+  }
+}
