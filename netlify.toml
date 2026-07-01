@@ -3,7 +3,7 @@
 
 [build]
   command = "npm run build"
-  publish = ".next"
+  # No `publish` here — the Next.js Runtime plugin sets it automatically.
 
 [build.environment]
   NODE_VERSION = "20"
