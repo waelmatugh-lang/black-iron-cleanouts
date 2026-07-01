@@ -8,7 +8,7 @@ import { MapPinIcon } from '@/components/icons';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'serviceAreas' });
@@ -18,7 +18,7 @@ export async function generateMetadata({
 export default async function ServiceAreasPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

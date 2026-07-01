@@ -9,7 +9,7 @@ import { PhoneIcon, WhatsAppIcon, ClockIcon, ShieldCheckIcon } from '@/component
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'quote' });
@@ -19,7 +19,7 @@ export async function generateMetadata({
 export default async function QuotePage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

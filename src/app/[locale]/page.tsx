@@ -29,7 +29,7 @@ const ecoIcons = [HeartHandIcon, RecycleIcon, TrashIcon];
 export default async function HomePage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
