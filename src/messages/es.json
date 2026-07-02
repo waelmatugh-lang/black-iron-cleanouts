@@ -83,11 +83,11 @@
     },
     "process": {
       "eyebrow": "Cómo funciona",
-      "title": "Tres pasos sencillos",
+      "title": "Cuatro pasos sencillos",
       "subtitle": "Reservar un despeje debería ser la parte fácil.",
       "steps": [
         { "title": "Cuéntanos qué tienes", "desc": "Envía unas fotos por WhatsApp o nuestro formulario y describe el trabajo." },
-        { "title": "Recibe una cotización gratis", "desc": "Confirmamos un precio por adelantado y una hora que te convenga." },
+        { "title": "Recibe una cotización gratis", "desc": "Le garantizamos una cotización fija sin sorpresas antes de iniciar el trabajo y programamos la cita en el horario de su preferencia." },
         { "title": "Lo retiramos", "desc": "Nuestro equipo llega, hace el trabajo pesado y limpia después." },
         { "title": "Respira tranquilo", "desc": "Disfruta tu espacio recuperado — donamos, reciclamos o desechamos con responsabilidad." }
       ]
