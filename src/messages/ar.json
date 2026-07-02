@@ -228,7 +228,9 @@
     },
     "methods": {
       "callTitle": "اتصل أو راسل",
+      "callLangs": "الإسبانية والإنجليزية",
       "whatsappTitle": "واتساب",
+      "whatsappLangs": "العربية والإنجليزية",
       "whatsappAction": "راسلنا",
       "emailTitle": "البريد الإلكتروني",
       "areaTitle": "منطقة الخدمة",

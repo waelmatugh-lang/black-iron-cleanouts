@@ -228,7 +228,9 @@
     },
     "methods": {
       "callTitle": "Call or text",
+      "callLangs": "Spanish & English",
       "whatsappTitle": "WhatsApp",
+      "whatsappLangs": "Arabic & English",
       "whatsappAction": "Message us",
       "emailTitle": "Email",
       "areaTitle": "Service area",

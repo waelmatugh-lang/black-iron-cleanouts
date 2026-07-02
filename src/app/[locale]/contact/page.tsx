@@ -35,6 +35,7 @@ export default async function ContactPage({
     {
       title: t('methods.callTitle'),
       value: site.phone,
+      langs: t('methods.callLangs'),
       href: site.phoneHref,
       Icon: PhoneIcon,
       color: 'text-accent',
@@ -42,6 +43,7 @@ export default async function ContactPage({
     {
       title: t('methods.whatsappTitle'),
       value: site.whatsapp,
+      langs: t('methods.whatsappLangs'),
       href: site.whatsappHref,
       Icon: WhatsAppIcon,
       color: 'text-[#25D366]',
@@ -79,6 +81,9 @@ export default async function ContactPage({
                     {m.title}
                   </span>
                   <span className="block break-all font-semibold text-fg">{m.value}</span>
+                  {m.langs ? (
+                    <span className="mt-0.5 block text-xs text-muted">{m.langs}</span>
+                  ) : null}
                 </span>
               </a>
             ))}
