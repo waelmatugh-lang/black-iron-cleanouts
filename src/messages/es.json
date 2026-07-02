@@ -41,14 +41,14 @@
       "ctaPrimary": "Cotización Gratis",
       "ctaSecondary": "Chatear por WhatsApp",
       "trust": [
-        "Servicio la misma semana",
+        "Servicio el mismo día",
         "Precios claros, sin sorpresas",
         "Donamos y reciclamos"
       ]
     },
     "stats": {
       "items": [
-        { "value": "Esta semana", "label": "Citas disponibles" },
+        { "value": "El mismo día", "label": "Citas disponibles" },
         { "value": "Eco-primero", "label": "Donar · Reciclar · Desechar" },
         { "value": "3 idiomas", "label": "Inglés · Español · Árabe" },
         { "value": "Res. y Com.", "label": "Hogares y negocios" }
@@ -74,7 +74,7 @@
       "subtitle": "Tratamos tu hogar y tu tiempo con respeto — en cada trabajo, siempre.",
       "items": [
         { "title": "Precios por adelantado", "desc": "Cotizaciones claras antes de empezar. Sin cargos ocultos, sin sorpresas." },
-        { "title": "Rápido y puntual", "desc": "Disponibilidad la misma semana y equipos que llegan cuando lo prometemos." },
+        { "title": "Rápido y puntual", "desc": "Disponibilidad el mismo día y equipos que llegan cuando lo prometemos." },
         { "title": "Cuidado con tu hogar", "desc": "Protegemos pisos y entradas, y manejamos cada artículo con cuidado." },
         { "title": "Responsables con el medio ambiente", "desc": "Donamos y reciclamos lo que podemos para mantenerlo fuera del vertedero." },
         { "title": "Con licencia y asegurado", "desc": "Un equipo profesional y asegurado en quien puedes confiar en tu propiedad." },
@@ -122,7 +122,7 @@
       "title": "Preguntas frecuentes",
       "items": [
         { "q": "¿Cuánto cuesta la remoción de basura?", "a": "El precio depende del volumen y el tipo de artículos. Te damos una cotización clara por adelantado antes de empezar — normalmente justo después de que envíes fotos por WhatsApp o nuestro formulario." },
-        { "q": "¿Qué tan rápido pueden venir?", "a": "Con frecuencia tenemos disponibilidad la misma semana, y a veces el mismo día según la agenda. Contáctanos y encontraremos una hora que funcione." },
+        { "q": "¿Qué tan rápido pueden venir?", "a": "Con frecuencia tenemos disponibilidad el mismo día según la agenda. Contáctanos y encontraremos una hora que funcione." },
         { "q": "¿Qué artículos se llevan?", "a": "Muebles, electrodomésticos, electrónicos, escombros de jardín, escombros de construcción y desorden del hogar. Pregúntanos por artículos especiales." },
         { "q": "¿Hacen mudanzas además de remoción?", "a": "Sí. Movemos y acarreamos artículos entre cuartos, casas y de proveedores a clientes — no solo desecho." },
         { "q": "¿Donan o reciclan?", "a": "Siempre que es posible. Separamos los artículos para donar o reciclar lo que se pueda, y solo desechamos lo que queda de forma responsable." },

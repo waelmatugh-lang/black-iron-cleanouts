@@ -41,14 +41,14 @@
       "ctaPrimary": "Get a Free Quote",
       "ctaSecondary": "Chat on WhatsApp",
       "trust": [
-        "Same-week service",
+        "Same-day service",
         "Upfront, no-surprise pricing",
         "We donate & recycle"
       ]
     },
     "stats": {
       "items": [
-        { "value": "Same-week", "label": "Booking available" },
+        { "value": "Same-day", "label": "Booking available" },
         { "value": "Eco-first", "label": "Donate · Recycle · Dispose" },
         { "value": "3 languages", "label": "English · Spanish · Arabic" },
         { "value": "Res. & Comm.", "label": "Homes & businesses" }
@@ -74,7 +74,7 @@
       "subtitle": "We treat your home and your time with respect — every job, every time.",
       "items": [
         { "title": "Upfront pricing", "desc": "Clear quotes before we start. No hidden fees, no surprises." },
-        { "title": "Fast & on time", "desc": "Same-week availability and crews that show up when we say we will." },
+        { "title": "Fast & on time", "desc": "Same-day availability and crews that show up when we say we will." },
         { "title": "Careful with your home", "desc": "We protect floors and doorways and handle every item with care." },
         { "title": "Eco-responsible", "desc": "We donate and recycle whatever we can to keep it out of the landfill." },
         { "title": "Licensed & insured", "desc": "A professional, insured team you can trust on your property." },
@@ -122,7 +122,7 @@
       "title": "Frequently asked questions",
       "items": [
         { "q": "How much does junk removal cost?", "a": "Pricing depends on the volume and type of items. We give you a clear, upfront quote before any work begins — usually right after you send photos by WhatsApp or our quote form." },
-        { "q": "How fast can you come out?", "a": "We often have same-week availability, and sometimes same-day depending on the schedule. Reach out and we'll find a time that works." },
+        { "q": "How fast can you come out?", "a": "We often have same-day availability depending on the schedule. Reach out and we'll find a time that works." },
         { "q": "What items do you take?", "a": "Furniture, appliances, electronics, yard debris, construction debris and general household clutter. Ask us about specialty items." },
         { "q": "Do you handle moving as well as removal?", "a": "Yes. We move and haul items between rooms, homes, and from suppliers to customers — not just disposal." },
         { "q": "Do you donate or recycle?", "a": "Whenever possible. We sort items to donate or recycle what we can, and only dispose of what's left responsibly." },
