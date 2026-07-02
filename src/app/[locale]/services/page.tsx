@@ -69,14 +69,13 @@ export default async function ServicesPage({
       {/* Feature image — crew at work */}
       <section className="pb-4">
         <div className="container-x">
-          <div className="overflow-hidden rounded-[1.75rem] shadow-lift ring-1 ring-border">
+          <div className="relative mx-auto aspect-[16/10] max-w-4xl overflow-hidden rounded-[1.75rem] shadow-lift ring-1 ring-border">
             <Image
               src="/images/cleanout.jpg"
-              alt={`${site.name} crew clearing a property`}
-              width={1024}
-              height={559}
-              sizes="(min-width: 1280px) 80rem, 100vw"
-              className="h-auto w-full object-cover"
+              alt={`${site.name} crew loading furniture`}
+              fill
+              sizes="(min-width: 768px) 56rem, 100vw"
+              className="object-cover object-center"
             />
           </div>
         </div>
