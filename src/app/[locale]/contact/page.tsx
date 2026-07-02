@@ -80,7 +80,13 @@ export default async function ContactPage({
                   <span className="block text-xs font-semibold uppercase tracking-wide text-muted">
                     {m.title}
                   </span>
-                  <span className="block break-all font-semibold text-fg">{m.value}</span>
+                  <span
+                    className={`block font-semibold text-fg ${
+                      m.value.includes('@') ? 'text-[0.78rem] tracking-tight' : ''
+                    }`}
+                  >
+                    {m.value}
+                  </span>
                   {m.langs ? (
                     <span className="mt-0.5 block text-xs text-muted">{m.langs}</span>
                   ) : null}
