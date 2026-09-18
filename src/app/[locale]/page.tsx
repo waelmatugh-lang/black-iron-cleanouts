@@ -17,7 +17,6 @@ import {
   LeafIcon,
   HomeIcon,
   HeartHandIcon,
-  StarIcon,
   RecycleIcon,
   TrashIcon,
   MapPinIcon,
@@ -40,7 +39,6 @@ export default async function HomePage({
   const steps = t.raw('process.steps') as { title: string; desc: string }[];
   const ecoPoints = t.raw('eco.points') as { title: string; desc: string }[];
   const stats = t.raw('stats.items') as { value: string; label: string }[];
-  const testimonials = t.raw('testimonials.items') as { quote: string; name: string; location: string }[];
   const faqItems = t.raw('faq.items') as { q: string; a: string }[];
   const trust = t.raw('hero.trust') as string[];
   const cities = (await getTranslations('serviceAreas')).raw('cities') as string[];
@@ -295,31 +293,6 @@ export default async function HomePage({
               {t('areas.cta')}
               <ArrowRightIcon className="h-4 w-4 rtl:rotate-180" />
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ===================== TESTIMONIALS ===================== */}
-      <section className="section bg-surface-2">
-        <div className="container-x">
-          <SectionHeading eyebrow={t('testimonials.eyebrow')} title={t('testimonials.title')} />
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
-            {testimonials.map((tm) => (
-              <figure key={tm.name} className="card flex flex-col p-6">
-                <div className="flex gap-0.5 text-accent" aria-hidden>
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <StarIcon key={i} className="h-5 w-5" />
-                  ))}
-                </div>
-                <blockquote className="mt-4 flex-1 text-base leading-relaxed text-fg">
-                  “{tm.quote}”
-                </blockquote>
-                <figcaption className="mt-5 border-t border-border pt-4">
-                  <span className="block text-sm font-bold">{tm.name}</span>
-                  <span className="block text-sm text-muted">{tm.location}</span>
-                </figcaption>
-              </figure>
-            ))}
           </div>
         </div>
       </section>

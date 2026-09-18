@@ -108,15 +108,6 @@
       "subtitle": "Based in Everett, WA and serving the surrounding cities and neighborhoods.",
       "cta": "See all service areas"
     },
-    "testimonials": {
-      "eyebrow": "Customers",
-      "title": "Neighbors who trust Black Iron",
-      "items": [
-        { "quote": "Showed up on time, gave a fair price up front, and cleared my whole garage in an afternoon. Couldn't be happier.", "name": "Maria G.", "location": "Everett, WA" },
-        { "quote": "They moved heavy furniture between two homes without a scratch. Professional and friendly the whole way.", "name": "David R.", "location": "Lynnwood, WA" },
-        { "quote": "Loved that they donated what they could instead of trashing it. Honest, fast, and easy to reach on WhatsApp.", "name": "Aisha K.", "location": "Seattle, WA" }
-      ]
-    },
     "faq": {
       "eyebrow": "Questions",
       "title": "Frequently asked questions",

@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nslookup www.blackironcleanouts.com)",
+      "Bash(nslookup blackironcleanouts.com)",
+      "Bash(nslookup -type=NS blackironcleanouts.com)",
+      "WebFetch(domain:rdap.org)",
+      "Bash(npx --no-install netlify --version)",
+      "Bash(npx --no-install netlify status)",
+      "WebFetch(domain:jade-brioche-6dbdc3.netlify.app)",
+      "Bash(npx --no-install netlify api getSite --data '{\"site_id\":\"a0ec55f8-91b1-441e-b12f-5378330092d0\"}')",
+      "Bash(node -e \"let s='';process.stdin.on\\('data',d=>s+=d\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(s\\);console.log\\(JSON.stringify\\({name:j.name,url:j.url,ssl_url:j.ssl_url,custom_domain:j.custom_domain,domain_aliases:j.domain_aliases,published_at:j.published_deploy&&j.published_deploy.published_at,commit:j.published_deploy&&j.published_deploy.commit_ref,state:j.published_deploy&&j.published_deploy.state,ssl:j.ssl,repo:j.build_settings&&j.build_settings.repo_url,branch:j.build_settings&&j.build_settings.repo_branch},null,2\\)\\)}catch\\(e\\){console.log\\(s.slice\\(0,2000\\)\\)}}\\)\")",
+      "Bash(npx --no-install netlify api listSiteDeploys --data '{\"site_id\":\"a0ec55f8-91b1-441e-b12f-5378330092d0\"}')",
+      "Bash(node -e \"let s='';process.stdin.on\\('data',d=>s+=d\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(s\\);console.log\\('deploys:',j.length\\);j.slice\\(0,8\\).forEach\\(d=>console.log\\(d.created_at,d.state,d.context,d.error_message||'',d.deploy_url\\)\\)}catch\\(e\\){console.log\\(s.slice\\(0,1500\\)\\)}}\\)\")",
+      "Bash(npx --no-install netlify deploy --build --prod)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(npx --no-install netlify api updateSite --data '{\"site_id\":\"a0ec55f8-91b1-441e-b12f-5378330092d0\",\"body\":{\"custom_domain\":\"www.blackironcleanouts.com\",\"domain_aliases\":[\"blackironcleanouts.com\"]}}')",
+      "Bash(node -e \"let s='';process.stdin.on\\('data',d=>s+=d\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(s\\);console.log\\(JSON.stringify\\({custom_domain:j.custom_domain,domain_aliases:j.domain_aliases,url:j.url},null,2\\)\\)}catch\\(e\\){console.log\\(s.slice\\(0,1500\\)\\)}}\\)\")",
+      "Bash(npx --no-install netlify api listAccountsForUser)",
+      "Bash(node -e \"let s='';process.stdin.on\\('data',d=>s+=d\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(s\\);j.forEach\\(a=>console.log\\(a.slug,'|',a.name,'|',a.type_name\\)\\)}catch\\(e\\){console.log\\(s.slice\\(0,800\\)\\)}}\\)\")",
+      "Bash(npx --no-install netlify api createDnsZone --data '{\"body\":{\"account_slug\":\"waelmatugh-lang\",\"site_id\":\"a0ec55f8-91b1-441e-b12f-5378330092d0\",\"name\":\"blackironcleanouts.com\"}}')",
+      "Bash(node -e \"let s='';process.stdin.on\\('data',d=>s+=d\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(s\\);console.log\\(JSON.stringify\\({id:j.id,name:j.name,dns_servers:j.dns_servers,records:\\(j.records||[]\\).map\\(r=>r.type+' '+r.hostname+' -> '+r.value\\)},null,2\\)\\)}catch\\(e\\){console.log\\(s.slice\\(0,1500\\)\\)}}\\)\")",
+      "Bash(npx --no-install netlify api getDnsRecords --data '{\"zone_id\":\"6aadbee0fc3faf472e99be61\"}')",
+      "Bash(node -e \"let s='';process.stdin.on\\('data',d=>s+=d\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(s\\);console.log\\('records:',j.length\\);j.forEach\\(r=>console.log\\(r.type,r.hostname,'->',r.value,r.managed?'\\(managed\\)':''\\)\\)}catch\\(e\\){console.log\\(s.slice\\(0,800\\)\\)}}\\)\")",
+      "Read(//c/Users/DELL/.claude/projects/d--black-iron/memory/**)",
+      "Bash(printf '%s\\\\n' '- [Netlify deployment]\\(deployment-netlify.md\\) — site live at jade-brioche-6dbdc3.netlify.app; domain at Network Solutions, nameserver switch pending')",
+      "Bash(npx --no-install vercel --version)",
+      "Bash(npx --no-install vercel whoami)",
+      "Bash(gh auth *)",
+      "WebFetch(domain:black-iron-cleanouts.vercel.app)",
+      "Bash(node -e ' *)",
+      "Bash(git checkout *)",
+      "Bash(git diff *)",
+      "Bash(npx --no-install netlify api updateSite --data '{\"site_id\":\"a0ec55f8-91b1-441e-b12f-5378330092d0\",\"body\":{\"custom_domain\":null,\"domain_aliases\":[]}}')",
+      "Bash(node -e \"let s='';process.stdin.on\\('data',d=>s+=d\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(s\\);console.log\\('site domain now:',j.custom_domain,j.domain_aliases\\)}catch\\(e\\){console.log\\(s.slice\\(0,600\\)\\)}}\\)\")",
+      "Bash(npx --no-install netlify api deleteDnsZone --data '{\"zone_id\":\"6aadbee0fc3faf472e99be61\"}')",
+      "Bash(git rm *)",
+      "Bash(git commit *)"
+    ]
+  }
+}

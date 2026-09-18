@@ -108,15 +108,6 @@
       "subtitle": "Con base en Everett, WA, atendemos las ciudades y vecindarios cercanos.",
       "cta": "Ver todas las zonas"
     },
-    "testimonials": {
-      "eyebrow": "Clientes",
-      "title": "Vecinos que confían en Black Iron",
-      "items": [
-        { "quote": "Llegaron puntuales, dieron un precio justo por adelantado y despejaron todo mi garaje en una tarde. No podría estar más feliz.", "name": "María G.", "location": "Everett, WA" },
-        { "quote": "Movieron muebles pesados entre dos casas sin un solo rayón. Profesionales y amables en todo momento.", "name": "David R.", "location": "Lynnwood, WA" },
-        { "quote": "Me encantó que donaran lo que pudieron en vez de tirarlo. Honestos, rápidos y fáciles de contactar por WhatsApp.", "name": "Aisha K.", "location": "Seattle, WA" }
-      ]
-    },
     "faq": {
       "eyebrow": "Preguntas",
       "title": "Preguntas frecuentes",

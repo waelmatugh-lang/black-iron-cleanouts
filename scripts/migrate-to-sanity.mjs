@@ -163,13 +163,6 @@ async function run() {
     areasEyebrow: L('home.areas.eyebrow'),
     areasTitle: L('home.areas.title'),
     areasSubtitle: T('home.areas.subtitle'),
-    testimonialsEyebrow: L('home.testimonials.eyebrow'),
-    testimonialsTitle: L('home.testimonials.title'),
-    testimonials: mapArr('home.testimonials.items', 'tst', (en, es, ar, key) => ({
-      _type: 'testimonialItem', _key: key,
-      quote: mk('localeText', en.quote, es.quote, ar.quote),
-      name: en.name, location: en.location,
-    })),
     faqEyebrow: L('home.faq.eyebrow'),
     faqTitle: L('home.faq.title'),
     faq: mapArr('home.faq.items', 'faq', (en, es, ar, key) => ({
