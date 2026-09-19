@@ -69,7 +69,11 @@ export async function POST(req: Request) {
     const text = rows.map(([k, v]) => `${k}: ${v}`).join('\n');
 
     const apiKey = process.env.RESEND_API_KEY;
-    const to = process.env.QUOTE_TO_EMAIL || site.email;
+    // QUOTE_TO_EMAIL may list several inboxes separated by commas.
+    const to = (process.env.QUOTE_TO_EMAIL || site.email)
+      .split(',')
+      .map((s) => s.trim())
+      .filter(Boolean);
     const from = process.env.QUOTE_FROM_EMAIL || 'Black Iron Cleanouts <onboarding@resend.dev>';
 
     // If no email provider is configured, capture the lead in server logs so it
@@ -88,7 +92,7 @@ export async function POST(req: Request) {
       },
       body: JSON.stringify({
         from,
-        to: [to],
+        to,
         reply_to: email || undefined,
         subject: `New quote request — ${name}${city ? ` (${city})` : ''}`,
         html,
