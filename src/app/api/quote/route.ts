@@ -26,6 +26,8 @@ export async function POST(req: Request) {
     const propertyType = get('propertyType');
     const city = get('city');
     const details = get('details');
+    // Set by the instant-estimate calculator (e.g. "$250 – $288").
+    const estimate = get('estimate');
 
     // Minimal server-side validation + honeypot-friendly guard
     if (!name || (!phone && !email) || !details) {
@@ -48,6 +50,7 @@ export async function POST(req: Request) {
       ['Service', service || '—'],
       ['Property type', propertyType || '—'],
       ['City / area', city || '—'],
+      ...(estimate ? ([['Instant estimate', estimate]] as [string, string][]) : []),
       ['Details', details],
     ];
 
@@ -94,7 +97,9 @@ export async function POST(req: Request) {
         from,
         to,
         reply_to: email || undefined,
-        subject: `New quote request — ${name}${city ? ` (${city})` : ''}`,
+        subject: `${estimate ? 'Instant estimate' : 'New quote request'} — ${name}${city ? ` (${city})` : ''}${
+          estimate ? ` · ${estimate}` : ''
+        }`,
         html,
         text,
         attachments: attachments.length ? attachments : undefined,

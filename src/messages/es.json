@@ -343,5 +343,68 @@
         "details": "Por favor cuéntanos un poco sobre el trabajo."
       }
     }
+  },
+  "estimate": {
+    "hero": {
+      "badge": "Estimado instantáneo · 2 minutos",
+      "title": "Obtén un estimado de precio al instante",
+      "subtitle": "Elige tus artículos, responde unas preguntas rápidas y ve un precio aproximado de inmediato. Nuestro equipo confirma el precio final antes de empezar — sin sorpresas ni cargos ocultos."
+    },
+    "preliminary": "Precios preliminares — nuestras tarifas publicadas se están finalizando. Nuestro equipo confirma cada cotización antes de comenzar el trabajo.",
+    "mode": {
+      "label": "¿Qué quieres hacer con los artículos?",
+      "donation": "Donar",
+      "donationDesc": "Los artículos en buen estado van a una organización benéfica local — suele ser más barato",
+      "disposal": "Desechar",
+      "disposalDesc": "Basura, artículos rotos o desgastados — vertedero y reciclaje"
+    },
+    "items": {
+      "title": "¿Qué vamos a recoger?",
+      "subtitle": "Toca + por cada artículo. ¿No ves el tuyo? Agrégalo en las notas al final.",
+      "disposalOnly": "Solo eliminación",
+      "heavy": "Artículo pesado",
+      "each": "c/u"
+    },
+    "options": {
+      "title": "Algunos detalles",
+      "city": "Ciudad",
+      "cityPlaceholder": "Elige tu ciudad",
+      "cityOther": "Otra / no estoy seguro",
+      "stairs": "Pisos de escaleras sin elevador",
+      "disassembly": "Algunos artículos hay que desarmarlos (camas, mesas…)",
+      "curbside": "Todo estará en la acera, garaje o entrada",
+      "sameDay": "Necesito servicio el mismo día"
+    },
+    "summary": {
+      "title": "Tu estimado",
+      "empty": "Agrega artículos para ver un precio.",
+      "count": "{count, plural, one {# artículo} other {# artículos}}",
+      "items": "Artículos",
+      "heavy": "Manejo de artículos pesados",
+      "stairs": "Escaleras",
+      "disassembly": "Desarmado",
+      "sameDay": "Servicio el mismo día",
+      "curbside": "Descuento por acera",
+      "travel": "Traslado",
+      "minimum": "Se aplica el cargo mínimo",
+      "total": "Total estimado",
+      "disclaimer": "Esto es un estimado, no una cotización final. Nuestro equipo confirma el precio exacto antes de comenzar, y solo pagas por lo que nos llevamos.",
+      "continue": "Confirmar este precio",
+      "reset": "Empezar de nuevo"
+    },
+    "book": {
+      "title": "Asegura tu estimado",
+      "subtitle": "Déjanos tus datos y confirmaremos el precio y la hora de recogida — normalmente en menos de una hora en horario laboral.",
+      "date": "Fecha preferida (opcional)",
+      "notes": "¿Algo más? (opcional)",
+      "notesPlaceholder": "Código de la puerta, artículos extra, estacionamiento, fotos por WhatsApp…",
+      "submit": "Enviar mi solicitud de estimado",
+      "successTitle": "¡Listo! Te confirmamos en breve.",
+      "successBody": "Tu estimado y tus datos ya van en camino a nuestro equipo. Te responderemos por teléfono o correo con el precio confirmado y la hora de recogida."
+    },
+    "help": {
+      "title": "¿Tienes dudas?",
+      "text": "Envíanos unas fotos por WhatsApp y te damos el precio."
+    }
   }
 }

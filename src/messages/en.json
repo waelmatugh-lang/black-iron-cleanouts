@@ -343,5 +343,68 @@
         "details": "Please tell us a bit about the job."
       }
     }
+  },
+  "estimate": {
+    "hero": {
+      "badge": "Instant estimate · 2 minutes",
+      "title": "Get an Instant Price Estimate",
+      "subtitle": "Pick your items, answer a few quick questions and see a ballpark price right away. Our team confirms the final price before we start — no surprises, no hidden fees."
+    },
+    "preliminary": "Preliminary pricing — our published rates are being finalized. Every quote is confirmed by our team before work begins.",
+    "mode": {
+      "label": "What should happen to the items?",
+      "donation": "Donate",
+      "donationDesc": "Usable items go to a local charity — usually cheaper",
+      "disposal": "Dispose",
+      "disposalDesc": "Junk, broken or worn-out items — dump & recycling"
+    },
+    "items": {
+      "title": "What are we picking up?",
+      "subtitle": "Tap + for each item. Don't see yours? Add it in the notes at the end.",
+      "disposalOnly": "Disposal only",
+      "heavy": "Heavy item",
+      "each": "each"
+    },
+    "options": {
+      "title": "A few details",
+      "city": "City",
+      "cityPlaceholder": "Choose your city",
+      "cityOther": "Other / not sure",
+      "stairs": "Flights of stairs without an elevator",
+      "disassembly": "Some items need to be taken apart (beds, tables…)",
+      "curbside": "Everything will be at the curb, garage or driveway",
+      "sameDay": "I need same-day service"
+    },
+    "summary": {
+      "title": "Your estimate",
+      "empty": "Add items to see a price.",
+      "count": "{count, plural, one {# item} other {# items}}",
+      "items": "Items",
+      "heavy": "Heavy-item handling",
+      "stairs": "Stairs",
+      "disassembly": "Disassembly",
+      "sameDay": "Same-day service",
+      "curbside": "Curbside discount",
+      "travel": "Travel",
+      "minimum": "Minimum charge applied",
+      "total": "Estimated total",
+      "disclaimer": "This is an estimate, not a final quote. Our team confirms the exact price before work starts, and you only pay for what we take.",
+      "continue": "Get this price confirmed",
+      "reset": "Start over"
+    },
+    "book": {
+      "title": "Lock in your estimate",
+      "subtitle": "Leave your details and we'll confirm the price and a pickup time — usually within the hour during business hours.",
+      "date": "Preferred date (optional)",
+      "notes": "Anything else? (optional)",
+      "notesPlaceholder": "Gate code, extra items, parking, photos on WhatsApp…",
+      "submit": "Send my estimate request",
+      "successTitle": "Got it — we'll confirm shortly.",
+      "successBody": "Your estimate and details are on their way to our team. We'll reply by phone or email with the confirmed price and pickup time."
+    },
+    "help": {
+      "title": "Not sure about something?",
+      "text": "Send us a few photos on WhatsApp and we'll price it for you."
+    }
   }
 }
