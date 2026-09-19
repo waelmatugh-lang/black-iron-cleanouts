@@ -12,6 +12,7 @@ import { MenuIcon, CloseIcon, PhoneIcon, ArrowRightIcon } from './icons';
 const NAV = [
   { href: '/', key: 'home' },
   { href: '/services', key: 'services' },
+  { href: '/donation-pickup', key: 'donationPickup' },
   { href: '/how-it-works', key: 'howItWorks' },
   { href: '/service-areas', key: 'serviceAreas' },
   { href: '/about', key: 'about' },
@@ -49,7 +50,7 @@ export function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-1 xl:flex">
           {NAV.map((item) => {
             const active =
               item.href === '/'
@@ -59,7 +60,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                className={`whitespace-nowrap rounded-full px-3 py-2 text-sm font-medium transition-colors xl:px-4 ${
                   active
                     ? 'bg-surface-2 text-accent'
                     : 'text-fg hover:bg-surface-2'
@@ -74,7 +75,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <a
             href={site.phoneHref}
-            className="hidden shrink-0 items-center gap-2 whitespace-nowrap text-sm font-semibold text-fg hover:text-accent xl:flex"
+            className="hidden shrink-0 items-center gap-2 whitespace-nowrap text-sm font-semibold text-fg hover:text-accent 2xl:flex"
           >
             <PhoneIcon className="h-4 w-4 shrink-0 text-accent" />
             {site.phone}
@@ -83,13 +84,13 @@ export function Header() {
           <div className="hidden sm:block">
             <LanguageSwitcher />
           </div>
-          <Link href="/quote" className="btn-primary hidden h-10 px-5 py-0 text-sm sm:inline-flex">
+          <Link href="/quote" className="btn-primary hidden h-10 shrink-0 whitespace-nowrap px-5 py-0 text-sm sm:inline-flex">
             {t('getQuote')}
             <ArrowRightIcon className="h-4 w-4 rtl:rotate-180" />
           </Link>
           <button
             type="button"
-            className="btn-ghost p-2 lg:hidden"
+            className="btn-ghost p-2 xl:hidden"
             aria-label={open ? 'Close menu' : 'Open menu'}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
@@ -101,7 +102,7 @@ export function Header() {
 
       {/* Mobile drawer */}
       {open && (
-        <div className="lg:hidden">
+        <div className="xl:hidden">
           <div
             className="fixed inset-0 top-16 z-40 bg-navy-950/40"
             onClick={() => setOpen(false)}

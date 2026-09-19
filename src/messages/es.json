@@ -8,6 +8,7 @@
     "services": "Servicios",
     "howItWorks": "Cómo Funciona",
     "serviceAreas": "Zonas de Servicio",
+    "donationPickup": "Donaciones",
     "about": "Nosotros",
     "contact": "Contacto",
     "getQuote": "Cotización Gratis",
@@ -182,6 +183,73 @@
     "note": "¿No ves tu zona? Siempre estamos creciendo — contáctanos y te avisamos.",
     "cta": { "title": "Atendemos tu vecindario", "subtitle": "Obtén una cotización rápida y gratis para tu dirección.", "button": "Cotización Gratis" }
   },
+  "donation": {
+    "hero": {
+      "badge": "Recogida de donaciones",
+      "title": "Done sus muebles. Nosotros los recogemos.",
+      "subtitle": "Dele una segunda vida a sus muebles, electrodomésticos y artículos del hogar en buen estado. Los recogemos en su casa y los entregamos a una organización benéfica local — sin cargar, sin alquilar camión, sin viajes por la ciudad."
+    },
+    "steps": {
+      "eyebrow": "Cómo funciona",
+      "title": "Tres pasos sencillos",
+      "items": [
+        { "title": "Cuéntenos qué tiene", "desc": "Envíe una lista o algunas fotos por el formulario de cotización o WhatsApp. Confirmamos el precio y la hora de recogida — muchas veces el mismo día." },
+        { "title": "Lo recogemos", "desc": "Nuestro equipo se encarga del trabajo pesado, las escaleras y el desmontaje, y carga todo con cuidado en el camión." },
+        { "title": "Lo entregamos a una organización benéfica", "desc": "Sus artículos van a una organización local como Goodwill, Habitat for Humanity ReStore o The Salvation Army. Pida el recibo de donación para sus registros." }
+      ]
+    },
+    "why": {
+      "eyebrow": "Por qué donar con nosotros",
+      "title": "Mejor para usted, sus vecinos y el planeta",
+      "items": [
+        { "title": "Más barato que la eliminación", "desc": "Las donaciones evitan las tarifas del vertedero, por eso una recogida para donación suele costar menos que el retiro de basura." },
+        { "title": "Posible deducción de impuestos", "desc": "Las donaciones a organizaciones 501(c)(3) registradas pueden ser deducibles de impuestos. El recibo lo emite la organización — consulte a su asesor fiscal." },
+        { "title": "Nada se desperdicia", "desc": "Su sofá, mesa o refrigerador ayuda a una familia en lugar de llenar un vertedero." },
+        { "title": "Rápido y cuidadoso", "desc": "Disponibilidad el mismo día, equipo con licencia y seguro, y tratamos sus cosas como si todavía fueran suyas." }
+      ]
+    },
+    "accept": {
+      "title": "Qué se puede donar",
+      "yes": {
+        "title": "Las organizaciones normalmente aceptan",
+        "items": ["Sofás, sillones y muebles tapizados limpios", "Mesas, sillas, escritorios y libreros", "Cómodas, mesas de noche y marcos de cama", "Refrigeradores, lavadoras, secadoras y estufas que funcionen", "Lámparas, espejos, alfombras y decoración", "Cajas de utensilios de cocina, libros y ropa"]
+      },
+      "no": {
+        "title": "Normalmente no se acepta (podemos eliminarlo en su lugar)",
+        "items": ["Colchones y bases de colchón", "Muebles manchados, rotos o dañados", "Electrodomésticos que no funcionan y televisores viejos", "Cunas y sillas de auto para bebé", "Pintura, químicos y materiales peligrosos"]
+      },
+      "note": "¿No está seguro? Envíenos una foto — si una organización no lo acepta, le diremos el precio de eliminación o reciclaje por adelantado."
+    },
+    "charities": {
+      "eyebrow": "A dónde va su donación",
+      "title": "Organizaciones locales a las que entregamos",
+      "subtitle": "Entregamos en centros de donación sin fines de lucro en los condados de Snohomish y King. ¿Tiene una organización preferida? Díganos y la llevamos allí.",
+      "items": ["Goodwill", "Habitat for Humanity ReStore", "The Salvation Army", "St. Vincent de Paul", "Northwest Center", "Otras organizaciones locales a petición"]
+    },
+    "partners": {
+      "eyebrow": "Para organizaciones benéficas",
+      "title": "Colabore con Black Iron para las recogidas de sus donantes",
+      "text": "Muchos donantes quieren dar muebles grandes pero no tienen cómo llevarlos. Black Iron Cleanouts puede ser su socio de recogida recomendado: sus donantes nos reservan, nosotros recogemos los artículos y los entregamos en su centro de donación — sin costo para su organización.",
+      "points": ["Sin costo para la organización — el donante paga la recogida", "Equipo con licencia, seguro y trilingüe (inglés · español · árabe)", "Recogidas el mismo día o al día siguiente en toda el área de Seattle y Everett", "Seguimos sus reglas de aceptación para que solo reciba lo que puede usar"],
+      "button": "Escríbanos sobre una colaboración",
+      "call": "O llame al"
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Preguntas sobre la recogida de donaciones",
+      "items": [
+        { "q": "¿Cuánto cuesta una recogida de donación?", "a": "Depende de la cantidad y el tamaño de los artículos y de su ubicación. Envíenos una lista o fotos y recibirá un precio fijo antes de que lleguemos — sin sorpresas." },
+        { "q": "¿Recibiré un recibo para impuestos?", "a": "El recibo de donación lo emite la organización que recibe sus artículos, no Black Iron. Avísenos que lo quiere y lo pediremos al entregar cuando la organización lo ofrezca." },
+        { "q": "¿Qué pasa si la organización rechaza un artículo?", "a": "Revisamos sus artículos según las reglas de la organización antes de la recogida. Si algo no se puede donar, le ofreceremos reciclarlo o eliminarlo y le diremos el precio por adelantado." },
+        { "q": "¿Pueden combinar donación y retiro de basura en un solo viaje?", "a": "Sí — es el trabajo más común. Donamos lo que se puede donar, reciclamos lo reciclable y eliminamos el resto, todo en una sola visita." }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para donar?",
+      "subtitle": "Cuéntenos qué tiene y nosotros nos encargamos del resto — muchas veces el mismo día.",
+      "button": "Reservar una recogida de donación"
+    }
+  },
   "about": {
     "hero": {
       "badge": "Local y familiar",
@@ -246,6 +314,7 @@
       "service": "Servicio necesario",
       "serviceOptions": {
         "junk": "Remoción de Basura",
+        "donation": "Recogida de donaciones (entrega a una organización benéfica)",
         "moving": "Mudanza de Muebles y Artículos",
         "hauling": "Acarreo de Proveedor a Cliente",
         "cleanout": "Despeje de Propiedad o Garaje",

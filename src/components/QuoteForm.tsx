@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, type FormEvent } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { site } from '@/lib/site';
 import {
@@ -14,6 +15,7 @@ type Status = 'idle' | 'submitting' | 'success' | 'error';
 
 const SERVICE_KEYS = [
   'junk',
+  'donation',
   'moving',
   'hauling',
   'cleanout',
@@ -27,6 +29,12 @@ export function QuoteForm() {
   const tc = useTranslations('common');
   const [status, setStatus] = useState<Status>('idle');
   const [errors, setErrors] = useState<Record<string, string>>({});
+
+  // Links like /quote?service=donation preselect the service.
+  const requested = useSearchParams().get('service');
+  const defaultService = (SERVICE_KEYS as readonly string[]).includes(requested ?? '')
+    ? (requested as (typeof SERVICE_KEYS)[number])
+    : 'junk';
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -103,7 +111,7 @@ export function QuoteForm() {
         </Field>
 
         <Field label={t('service')} htmlFor="service">
-          <select id="service" name="service" className="ipt" defaultValue="junk">
+          <select id="service" name="service" className="ipt" defaultValue={defaultService}>
             {SERVICE_KEYS.map((k) => (
               <option key={k} value={k}>
                 {t(`serviceOptions.${k}`)}

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { site } from '@/lib/site';
@@ -32,7 +33,10 @@ export default async function QuotePage({
 
       <section className="section">
         <div className="container-x grid gap-10 lg:grid-cols-[1fr_22rem]">
-          <QuoteForm />
+          {/* useSearchParams inside the form needs a Suspense boundary on a static page */}
+          <Suspense>
+            <QuoteForm />
+          </Suspense>
 
           <aside className="space-y-4 lg:order-last">
             <div className="card p-6">

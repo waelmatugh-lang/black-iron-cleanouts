@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { site } from '@/lib/site';
@@ -121,7 +122,9 @@ export default async function ContactPage({
           <div>
             <h2 className="text-2xl font-bold">{t('formTitle')}</h2>
             <div className="mt-5">
-              <QuoteForm />
+              <Suspense>
+                <QuoteForm />
+              </Suspense>
             </div>
           </div>
         </div>

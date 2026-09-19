@@ -16,6 +16,7 @@ export function Footer() {
 
   const links = [
     { href: '/services', key: 'services' },
+    { href: '/donation-pickup', key: 'donationPickup' },
     { href: '/how-it-works', key: 'howItWorks' },
     { href: '/service-areas', key: 'serviceAreas' },
     { href: '/about', key: 'about' },

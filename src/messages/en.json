@@ -8,6 +8,7 @@
     "services": "Services",
     "howItWorks": "How It Works",
     "serviceAreas": "Service Areas",
+    "donationPickup": "Donations",
     "about": "About",
     "contact": "Contact",
     "getQuote": "Get a Free Quote",
@@ -182,6 +183,73 @@
     "note": "Don't see your area? We're always expanding — reach out and we'll let you know.",
     "cta": { "title": "Serving your neighborhood", "subtitle": "Get a fast, free quote for your address.", "button": "Get a Free Quote" }
   },
+  "donation": {
+    "hero": {
+      "badge": "Donation Pickup",
+      "title": "Donate your furniture. We'll pick it up.",
+      "subtitle": "Give your gently used furniture, appliances and household items a second life. We collect them from your home and deliver them to a local charity — no lifting, no truck rental, no trips across town."
+    },
+    "steps": {
+      "eyebrow": "How it works",
+      "title": "Three simple steps",
+      "items": [
+        { "title": "Tell us what you have", "desc": "Send a list or a few photos through the quote form or WhatsApp. We confirm the price and a pickup time — often the same day." },
+        { "title": "We pick it up", "desc": "Our crew handles the heavy lifting, stairs and disassembly, and loads everything carefully into the truck." },
+        { "title": "We deliver it to a charity", "desc": "Your items go to a local nonprofit such as Goodwill, Habitat for Humanity ReStore or The Salvation Army. Ask for the donation receipt for your records." }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why donate with us",
+      "title": "Better for you, your neighbors and the planet",
+      "items": [
+        { "title": "Cheaper than disposal", "desc": "Donations avoid landfill fees, so a donation pickup usually costs less than junk removal." },
+        { "title": "Possible tax deduction", "desc": "Donations to registered 501(c)(3) charities may be tax-deductible. The charity issues the receipt — ask your tax advisor." },
+        { "title": "Nothing goes to waste", "desc": "Your sofa, table or fridge helps a family instead of filling a landfill." },
+        { "title": "Fast and careful", "desc": "Same-day availability, licensed and insured crew, and we treat your items like they're still yours." }
+      ]
+    },
+    "accept": {
+      "title": "What can be donated",
+      "yes": {
+        "title": "Charities usually accept",
+        "items": ["Sofas, armchairs and clean upholstered furniture", "Tables, chairs, desks and bookshelves", "Dressers, nightstands and bed frames", "Working refrigerators, washers, dryers and stoves", "Lamps, mirrors, rugs and home décor", "Boxes of kitchenware, books and clothing"]
+      },
+      "no": {
+        "title": "Usually not accepted (we can dispose of these instead)",
+        "items": ["Mattresses and box springs", "Stained, torn or broken furniture", "Non-working appliances and old TVs", "Baby cribs and car seats", "Paint, chemicals and hazardous materials"]
+      },
+      "note": "Not sure? Send us a photo — if a charity won't take it, we'll tell you the disposal or recycling price up front."
+    },
+    "charities": {
+      "eyebrow": "Where your donation goes",
+      "title": "Local organizations we deliver to",
+      "subtitle": "We drop off at nonprofit donation centers across Snohomish and King County. Have a preferred charity? Tell us and we'll deliver there.",
+      "items": ["Goodwill", "Habitat for Humanity ReStore", "The Salvation Army", "St. Vincent de Paul", "Northwest Center", "Other local nonprofits on request"]
+    },
+    "partners": {
+      "eyebrow": "For charities & nonprofits",
+      "title": "Partner with Black Iron for donor pickups",
+      "text": "Many donors want to give large furniture but have no way to bring it to you. Black Iron Cleanouts can be your recommended pickup partner: your donors book us, we collect the items and deliver them to your donation center — at no cost to your organization.",
+      "points": ["No cost to the charity — the donor pays the pickup fee", "Licensed, insured, bilingual crew (English · Spanish · Arabic)", "Same-day and next-day pickups across greater Seattle & Everett", "We follow your acceptance rules so you only receive what you can use"],
+      "button": "Email us about a partnership",
+      "call": "Or call"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Donation pickup questions",
+      "items": [
+        { "q": "How much does a donation pickup cost?", "a": "It depends on the number and size of items and your location. Send us a list or photos and you'll get a fixed price before we come — no surprises." },
+        { "q": "Will I get a tax receipt?", "a": "The donation receipt comes from the charity that receives your items, not from Black Iron. Let us know you want one and we'll request it at drop-off when the charity offers it." },
+        { "q": "What if the charity refuses an item?", "a": "We check your items against the charity's rules before pickup. If something can't be donated, we'll offer to recycle or dispose of it and tell you the price in advance." },
+        { "q": "Can you mix donation and junk removal in one trip?", "a": "Yes — that's the most common job. We donate what can be donated, recycle what can be recycled and dispose of the rest, all in one visit." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to donate?",
+      "subtitle": "Tell us what you have and we'll take care of the rest — often the same day.",
+      "button": "Book a donation pickup"
+    }
+  },
   "about": {
     "hero": {
       "badge": "Local & family-minded",
@@ -246,6 +314,7 @@
       "service": "Service needed",
       "serviceOptions": {
         "junk": "Junk Removal",
+        "donation": "Donation Pickup (deliver to a charity)",
         "moving": "Furniture & Item Moving",
         "hauling": "Supplier-to-Customer Hauling",
         "cleanout": "Estate & Garage Cleanout",
